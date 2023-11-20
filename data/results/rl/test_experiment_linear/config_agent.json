@@ -1,0 +1,23 @@
+{
+    "replay_capacity": 50000,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "target_update_interval": 1,
+    "tau": 0.005,
+    "lr_alpha": 0.0003,
+    "gamma": 0.1,
+    "update_simplified": false,
+    "train_for_steps": 1,
+    "train_every_steps": 1,
+    "print_every": 1001,
+    "num_layers_critic": 2,
+    "num_layers_actor": 3,
+    "initialize_last_layer_zero": true,
+    "initialise_last_layer_near_zero": false,
+    "shared_layers": false,
+    "agent_type": "sac",
+    "alpha": 0.2,
+    "entroy_factor": 1.0,
+    "automatic_entropy_tuning": false,
+    "update_policy_td3_every": 2
+}
