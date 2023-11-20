@@ -4,7 +4,7 @@ Implementation of Dual-stage control with reinforcement and supervised learning 
 ## Visualization of the RL agent working with SR, action, reward and two channels of the state
 
 <div align="center">
-    <img src="https://gitlab.com/Tomeu/test-repository-for-paper/-/raw/main/img/visualisation.gif" width="600">
+    <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/blob/main/img/visualisation.gif" width="600">
 </div>
 
 ## Requirements
@@ -114,10 +114,10 @@ python src/mains/mains_rl/main.py --seed 1234 --parameter_file "pyr_40x40_8m_M9_
 This work has been a collaboration of Barcelona Supercomputing Center, Paris Observatory and Universitat Politècnica de Catalunya for the RisingSTARS project.
 
 <div align="center">
-  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/-/raw/main/img/Image1.png" width="200" />
-  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/-/raw/main/img/Image2.png" width="200" />
-  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/-/raw/main/img/Image3.jpg" width="200" />
-  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/-/raw/main/img/Image4.png" width="200" />
+  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/blob/main/img/Image1.png" width="200" />
+  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/blob/main/img/Image2.png" width="200" />
+  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/blob/main/img/Image3.jpg" width="200" />
+  <img src="https://github.com/Tomeu7/Dual-Stage-ML-for-AO/blob/main/img/Image4.png" width="200" />
 </div>
 
 ## Acknowledgments
