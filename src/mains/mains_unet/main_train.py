@@ -279,7 +279,7 @@ if __name__ == "__main__":
     parser.add_argument('--initialize_last_layer_0', action='store_true')
     parser.add_argument('--normalization_noise', action='store_true')
     parser.add_argument('--max_dataset_size', type=int, default=float("inf"))
-    parser.add_argument('--data_dir', type=str, default="/raid/pbartomeu/outputs/output_dataset_gan/")
+    parser.add_argument('--data_dir', type=str)
     parser.add_argument('--data_name', required=True, help='Path to data files.', type=str)
     parser.add_argument('--save_dir', type=str, default="data/models/unet/")
     parser.add_argument('--max_num_epochs', type=int, default=1000)

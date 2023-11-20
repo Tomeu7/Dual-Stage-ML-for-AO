@@ -67,7 +67,7 @@ def initialize_folders_and_compass():
     parser.add_argument("--dont_get_the_phase", action="store_true")
     parser.add_argument("--pyr_gpu_id", default=0, type=int)
     parser.add_argument("--n_modes_filtered", default=100, type=int)
-    parser.add_argument("--path_to_data", type=str, default="/raid/pbartomeu/outputs/output_dataset_gan/test_example/")
+    parser.add_argument("--path_to_data", type=str)
     args_ = parser.parse_args()
     conf_env = obtain_config_env_default(args_.parameter_file, args_.n_modes_filtered)
     conf_env['control_tt'] = True  # We need projections therefore we need to set up a variable to True
