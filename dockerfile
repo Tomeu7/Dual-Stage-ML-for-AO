@@ -1,5 +1,5 @@
 FROM nvcr.io/nvidia/cuda:11.6.0-devel-ubuntu20.04
-WORKDIR /test-repository-for-paper
+WORKDIR /Dual-Stage-ML-for-AO
 
 # Conda
 RUN apt-get update && apt-get install -y wget bzip2 && \
@@ -23,7 +23,7 @@ RUN conda run -n dual-stage-ml-for-ao conda list compass
 RUN conda run -n dual-stage-ml-for-ao pip install gym==0.26.2
 RUN conda run -n dual-stage-ml-for-ao pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2+cu117 --index-url https://download.pytorch.org/whl/cu117
 
-ENV MAIN_DIR /test-repository-for-paper
+ENV MAIN_DIR /Dual-Stage-ML-for-AO
 ENV PYTHONPATH $MAIN_DIR:$PYTHONPATH
 ENV SHESHA_ROOT $MAIN_DIR/shesha
 ENV PYTHONPATH $SHESHA_ROOT:$PYTHONPATH

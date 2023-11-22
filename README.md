@@ -28,10 +28,10 @@ We provide an installation tutorial with docker. First build the docker image wi
 sudo docker build -t dual-stage-ml-for-ao .
 ```
 
-Now run a container with:
+Clone the project into $HOME directory and run a container with:
 
 ```
-sudo docker run -it --gpus all --rm -v $HOME/test-repository-for-paper:/test-repository-for-paper dual-stage-ml-for-ao /bin/bash
+sudo docker run -it --gpus all --rm -v $HOME/Dual-Stage-ML-for-AO:/Dual-Stage-ML-for-AO dual-stage-ml-for-ao /bin/bash
 ```
 
 ### Option 2: install via anaconda (requirements:anaconda)
